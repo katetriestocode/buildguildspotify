@@ -14,5 +14,11 @@ And this is the background:
 And this is the case:
 <img width="815" height="556" alt="Screenshot 2026-04-30 at 10 52 42" src="https://github.com/user-attachments/assets/652d26a6-eac0-45ef-857d-ea5b7b87a4c5" />
 
+with switches and without lid:
+<img width="1542" height="1021" alt="image" src="https://github.com/user-attachments/assets/bc41d666-1460-4685-a89a-f662eed9c071" />
+
+completely taken apart:
+<img width="987" height="622" alt="Screenshot 2026-04-26 at 11 02 16" src="https://github.com/user-attachments/assets/a7893940-7202-4f5c-8a18-4a5271eede04" />
+
 alsooo here is the wiring diagram:
 <img width="1205" height="989" alt="image" src="https://github.com/user-attachments/assets/d07dce26-1194-477a-98cd-d4e32ae4eac7" />
