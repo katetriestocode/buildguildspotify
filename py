@@ -116,3 +116,20 @@ while True:
     time.sleep(0.1)
 
 
+#(my) prog logic:
+#i set up the hardware: display and buttons <- and define these
+#i define framebuffers for the the bg and the 3 states: idle, study, tired
+#i define the modes:
+#idle: neutral, hangs out, display tot study time
+#study: locked in, displays study time as a countup
+#tired: pomodoro timer break, displays break time as a countdown
+#i use a drawing mode, so theres a bg and stuff is layered on it
+#i use a bobbing anim that shifts the pet by 3px every 500ms
+#i have a rectangle with an inner section that shows happiness fullness
+#i have a main loop:
+#checks for buttons, but avoids double presses
+#time tracks:
+#study mode adds to study_s
+#at 30min happiness gradually decreases
+#in break mode happiness regains, once 5 mins are up it returns to the idle stage and displays tot study time
+#screen refreshes every second (draw.screen())
