@@ -13,10 +13,19 @@ b_onoff = machine.pin(X, machine.pin.IN, machine.pin.PULL_UP)
 b_study = machine.pin(X, machine.pin.IN, machine.pin.PULL_UP)
 b_break = machine.pin(X, machine.pin.IN, machine.pin.PULL_UP)
 
-bg_data = bytearray([] * (128 * 160 * 2))
-idle_data = bytearray([] * (128 * 160 * 2))
-study_data = bytearray([] * (128 * 160 * 2))
-tired_data = bytearray([] * (128 * 160 * 2))
+def load_image(filename):
+    try:
+        with open(filename, "rb") as f:
+            return f.read()
+    except:
+        print(f"Could not find {filename}")
+        return bytearray(128 * 160 * 2) # Return empty if file missing
+
+# loading the 4 images
+bg_data = load_image("bg.bin")
+idle_data = load_image("pixil-frame-0-10.bin")
+study_data = load_image("study.bin")
+tired_data = load_image("tired.bin")
 
 fb_bg = framebuf.FrameBuffer(bg_data, 128, 160, framebuf.RGB565)
 fb_idle = framebuf.FrameBuffer(idle_data, 128, 160, framebuf.RGB565)
