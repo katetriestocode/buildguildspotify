@@ -13,3 +13,6 @@ And this is the background:
 
 And this is the case:
 <img width="815" height="556" alt="Screenshot 2026-04-30 at 10 52 42" src="https://github.com/user-attachments/assets/652d26a6-eac0-45ef-857d-ea5b7b87a4c5" />
+
+alsooo here is the wiring diagram:
+<img width="1205" height="989" alt="image" src="https://github.com/user-attachments/assets/d07dce26-1194-477a-98cd-d4e32ae4eac7" />
