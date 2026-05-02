@@ -22,10 +22,10 @@ def load_image(filename):
         return bytearray(128 * 160 * 2) # Return empty if file missing
 
 # loading the 4 images
-bg_data = load_image("bg.bin")
-idle_data = load_image("pixil-frame-0-10.bin")
-study_data = load_image("study.bin")
-tired_data = load_image("tired.bin")
+bg_data = load_image("framebg")
+idle_data = load_image("frameidle.bin")
+study_data = load_image("framestudy.bin")
+tired_data = load_image("frametired.bin")
 
 fb_bg = framebuf.FrameBuffer(bg_data, 128, 160, framebuf.RGB565)
 fb_idle = framebuf.FrameBuffer(idle_data, 128, 160, framebuf.RGB565)
